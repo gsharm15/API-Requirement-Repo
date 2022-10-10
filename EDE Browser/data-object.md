@@ -34,14 +34,12 @@ _Pagedata would contain paginated array of data objects_
         "name": "Valve"
       },
       "dataRecord": {
-        "name": "", // not sure what dataRecord.name is
         "naturalKeyLabel": "",
         "primaryIdentitfier": "",
         "type": "",
         "filter": ""
       },
       "dataObject": {
-        "name": "", // not sure what dataObject.name is
         "naturalKeyLabel": "",
         "primaryIdentitfier": ""
       }
@@ -126,14 +124,12 @@ Example response data:
       "name": "Valve"
     },
     "dataRecord": {
-      "name": "", // not sure what dataRecord.name is
       "naturalKeyLabel": "",
       "primaryIdentitfier": "",
       "type": "",
       "filter": ""
     },
     "dataObject": {
-      "name": "", // not sure what dataObject.name is
       "naturalKeyLabel": "",
       "primaryIdentitfier": ""
     },
@@ -154,7 +150,7 @@ Example response data:
           "canonicalPath": "employee.lastUpdatedDate",
           "programmaticName": "lastUpdatedDate",
           "displayName": "Date",
-          "value": "00000000000000",
+          "value": "0",
           "unitOfMeasure": ""
         },
         {
@@ -162,7 +158,7 @@ Example response data:
           "canonicalPath": "employee.lastUpdatedDate",
           "programmaticName": "lastUpdatedDate",
           "displayName": "New prop",
-          "value": "222222222222222",
+          "value": "2",
           "unitOfMeasure": ""
         }
       ]
