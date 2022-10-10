@@ -4,7 +4,7 @@
 
 ### UI Design
 
-User would choose a context ID and data record type to land into a screen of data objects.
+User would choose a context ID to land into a screen of data Records.
 
 - Initially, user would be presented with the list of data Recirds available based on multiple context selected.
 - ![image](https://user-images.githubusercontent.com/99733969/194864304-69a48c47-9288-4809-b47d-cb430b40bc62.png)
@@ -14,7 +14,7 @@ User would choose a context ID and data record type to land into a screen of dat
 
 #### Proposed Response Schema
 
-_Pagedata would contain paginated array of data objects_
+_Pagedata would contain paginated array of data records_
 
 ```json
 {
