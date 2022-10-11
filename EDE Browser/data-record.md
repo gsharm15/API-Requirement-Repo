@@ -17,35 +17,58 @@ User would choose a context ID to land into a screen of data Records.
 _Pagedata would contain paginated array of data records_
 
 ```json
-{
-  "pageSize": 1,
-  "pageIndex": 1,
-  "totalRecords": 1,
-  "totalPages": 1,
-  "pageData": [
+[
     {
-      "context": {
-        "id": "73245dfe2bf2461a94015a2f4c46f7c8",
-        "name": "97624-100",
-        "description": "97624-100, - UAT Development, Configuration in UAT (For ACNX Data flows)"
-      },
-      "entity": {
-        "name": "Valve"
-      },
-      "dataRecord": {
-        "naturalKeyLabel": "",
-        "primaryIdentitfier": "",
-        "type": "",
-        "filter": "",
-        "dataRecordType":"type + filter"
-      },
-      "dataObject": {
-        "naturalKeyLabel": "",
-        "primaryIdentitfier": ""
-      }
+        "pageSize": 1,
+        "pageIndex": 1,
+        "totalRecords": 1,
+        "totalPages": 1,
+        "context": {
+            "id": "73245dfe2bf2461a94015a2f4c46f7c8",
+            "name": "97624-100",
+            "description": "97624-100, - UAT Development, Configuration in UAT (For ACNX Data flows)"
+        },
+        "pageData": [
+            {
+                "naturalKeyLabel": "",
+                "primaryIdentitfier": "",
+                "type": "",
+                "filter": ""
+            },
+            {
+                "naturalKeyLabel": "",
+                "primaryIdentitfier": "",
+                "type": "",
+                "filter": ""
+            }
+        ]
+    },
+    {
+        "pageSize": 1,
+        "pageIndex": 1,
+        "totalRecords": 1,
+        "totalPages": 1,
+        "context": {
+            "id": "12345dfe2bf2461a94015a2f4c46f767",
+            "name": "26173-777",
+            "description": "26173-777, - DEV Development, Configuration in DEV (For ACNX Data flows)"
+        },
+        "pageData": [
+            {
+                "naturalKeyLabel": "",
+                "primaryIdentitfier": "",
+                "type": "",
+                "filter": ""
+            },
+            {
+                "naturalKeyLabel": "",
+                "primaryIdentitfier": "",
+                "type": "",
+                "filter": ""
+            }
+        ]
     }
-  ]
-}
+]
 ```
 
 #### API Details
