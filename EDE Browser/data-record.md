@@ -68,8 +68,7 @@ _Pagedata would contain paginated array of data records_
             }
         ]
     }
-]
-```
+]```
 
 #### API Details
 
